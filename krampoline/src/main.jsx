@@ -6,7 +6,7 @@ import App from "./App";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename={"/" + import.meta.env.VITE_A}>
+    <BrowserRouter basename={"/" + import.meta.env.VITE_APP_PATH}>
       <App />
     </BrowserRouter>
   </React.StrictMode>
