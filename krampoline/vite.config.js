@@ -5,7 +5,7 @@ const env = loadEnv( process.cwd(), '')
 const staticServerUri = env.VITE_APP_PATH || "";  ;
 
 export default defineConfig({
-  base: `/${staticServerUri}/`,
+  base: `${staticServerUri}/`,
   server: {
     port: 3000,
   },
